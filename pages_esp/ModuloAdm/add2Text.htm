@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Adicionar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../css/Main.css" type="text/css">
+<link rel="stylesheet" href="../../css/EvalResult.css" type="text/css">
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="ToolBar">
+      <table border="0" cellspacing="0" cellpadding="0" class="ToolBar">
+        <tr> 
+          <td class="HeaderTable"  align=center><b id=tex >Modificar generalidades del módulo</b></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+    <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center">
+      <tr>
+        <td  align=center Class="MessageTR1">
+          <b id=tex1>Nombre:</b>
+        </td>
+        <td  Class="MessageTR1"align=left >
+           <textarea id="texto1" rows="5" cols="55" maxlength=250>
+            </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td  align=center Class="MessageTR1">
+          <b id=tex2>Nombre:</b>
+        </td>
+        <td  Class="MessageTR1"align=left >
+               <input  Id=texto2 type=text maxlength=250 size=55 value="">        </td>
+      </tr>
+      
+   </table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="ToolBar">
+      <table border="0" cellspacing="0" cellpadding="0" class="ToolBar">
+        <tr> 
+          <td class="HeaderTable"  align=center><center><input type="button" value="Aceptar" onclick="gogogo()"></center>
+</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+<script language=jscript>
+ returnValue = ''; 
+ 
+ if ((dialogArguments[0] != '') && (dialogArguments[0] + '' != 'undefined')) {
+ tex.innerText = dialogArguments[0];  
+ }
+  if ((dialogArguments[1] != '') && (dialogArguments[1] + '' != 'undefined')) {
+ tex1.innerText = dialogArguments[1];  
+ }
+ if ((dialogArguments[2] != '') && (dialogArguments[2] + '' != 'undefined')) {
+ tex2.innerText = dialogArguments[2];  
+ }
+
+ if ((dialogArguments[3] != '') && (dialogArguments[3] + '' != 'undefined')) {
+   texto1.innerText = dialogArguments[3];  
+ }  
+ 
+ if ((dialogArguments[4] != '') && (dialogArguments[4] + '' != 'undefined')) {
+   texto2.value = dialogArguments[4];  
+ }  
+ 
+ function gogogo() {
+   rV = new Array(2); 
+   rV[0]= texto1.innerText; 
+   rV[1]= texto2.value; 
+   returnValue = rV;
+   close(); 
+ }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+TABLE.TableTypeI
+{
+    BORDER-BOTTOM: #000066 thin solid;
+    BORDER-LEFT: #000066 thin solid;
+    BORDER-RIGHT: #000066 thin solid;
+    BORDER-TOP: #000066 thin solid
+}
+TABLE.TableTypeI TR.MainTRTTI
+{
+    BACKGROUND-COLOR: #6699cc;
+    COLOR: white;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+TABLE.TableTypeI TR.DatTR
+{
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: lighter
+}
+TABLE.TableTypeI TD.DatTD
+{
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: lighter
+}
+TR.OrdinalTR
+{
+    BACKGROUND-COLOR: #ebebeb
+}
+TD.NewsTD
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: #000066;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TD.HourTD
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: #9f0000;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TR.LogTR
+{
+    BACKGROUND-COLOR: transparent;
+    COLOR: black;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TD.UserTD
+{
+    BACKGROUND-COLOR: #000066;
+    COLOR: #ffffff;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: bolder
+}
+TD.DatTD
+{
+    COLOR: #000066;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: lighter
+}
+TD.TableBottom
+{
+    BACKGROUND-COLOR: #387cb0;
+    COLOR: #ffffff;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TR.MessageClass
+{
+    COLOR: #000066;
+    CURSOR: hand;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TR.MessageClassOver
+{
+    BACKGROUND-COLOR: #000066;
+    COLOR: #ffffff;
+    CURSOR: hand;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TD.MainTD
+{
+    BACKGROUND-COLOR: #000055;
+    COLOR: #ffffff;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+INPUT.MsgButton
+{
+    BORDER-BOTTOM: gray thin groove;
+    BORDER-LEFT: gray thin groove;
+    BORDER-RIGHT: gray thin groove;
+    BORDER-TOP: gray thin groove;
+    CURSOR: hand
+}
+TD.RedBar
+{
+    BACKGROUND-COLOR: #951a1d;
+    COLOR: #cccccc;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+TD.TransBar
+{
+    BACKGROUND-COLOR: transparent;
+    FONT-SIZE: x-small
+}
+TD.Title
+{
+    COLOR: #333333;
+    FONT-FAMILY: Arial;
+    FONT-WEIGHT: bolder
+}
+TR.ThemeRow
+{
+    BACKGROUND-COLOR: #000077;
+    COLOR: #ffffff;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TABLE.CatalogTable TD.CourseCell
+{
+    COLOR: #000000;
+    FONT-SIZE: xx-small
+}
+LI.CellLI
+{
+    COLOR: #000066;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder;
+    MARGIN-LEFT: 0px
+}
+INPUT.SearchEdit
+{
+    BACKGROUND-COLOR: #f4f4f4;
+    BORDER-BOTTOM: #f4f4f4 thin inset;
+    BORDER-LEFT: #f4f4f4 thin inset;
+    BORDER-RIGHT: #f4f4f4 thin inset;
+    BORDER-TOP: #f4f4f4 thin inset;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: lighter;
+    WIDTH: 100%
+}
+SELECT.SearchCombo
+{
+    BACKGROUND-COLOR: #f4f4f4;
+    BORDER-BOTTOM: gray thin groove;
+    BORDER-LEFT: gray thin groove;
+    BORDER-RIGHT: gray thin groove;
+    BORDER-TOP: gray thin groove;
+    CURSOR: hand;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: lighter;
+    WIDTH: 100%
+}
+INPUT.OkButton
+{
+    BORDER-BOTTOM: #000066 thin solid;
+    BORDER-LEFT: #000066 thin solid;
+    BORDER-RIGHT: #000066 thin solid;
+    BORDER-TOP: #000066 thin solid;
+    CURSOR: hand;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder;
+    HEIGHT: 16pt;
+    TEXT-ALIGN: center
+}
+IMG.Picture
+{
+    BORDER-BOTTOM: #000066 thin solid;
+    BORDER-LEFT: #000066 thin solid;
+    BORDER-RIGHT: #000066 thin solid;
+    BORDER-TOP: #000066 thin solid
+}

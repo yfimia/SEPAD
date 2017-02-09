@@ -1,0 +1,9 @@
+<%titulo="Listado de temas"%>
+<%tema="Tema"%>
+<%fecha="Fecha"%>
+<%estado="Estado"%>
+<%block="Bloquear"%>
+<%desblock="Desbloquear"%>
+<%message="No quedan más elementos."%>
+<%prox="Proximos"%>
+<%init="Inicio"%>

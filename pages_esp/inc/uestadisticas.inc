@@ -1,0 +1,33 @@
+<%
+var TITLE1 = "Estadísticas académicas";
+var TITLE2 = "Formulario de consultas";
+var TEXT1 = "Desde";
+var TEXT2 = "Día";
+var TEXT3 = "Mes";
+var TEXT4 = "Año";
+var TEXT5 = "Hasta";
+var TEXT6 = "Calificación";
+var TEXT7 = "Calificaciones de";
+var TEXT8 = "puntos";
+var TEXT9 = "Todas las Calificaciones";
+var TEXT10 = "Consultar";
+var TEXT11 = "Lección";
+var TEXT12 = "Fecha";
+var TEXT13 = "Puntuación";
+var TEXT14 = "Total";
+var TEXT15 = "Versión imprimible";
+var TEXT16 = "Alumno: ";
+var TEXT17 = "Curso: ";
+var TEXT19 = "Enero";
+var TEXT20 = "Febrero";
+var TEXT21 = "Marzo";
+var TEXT22 = "Abril";
+var TEXT23 = "Mayo";
+var TEXT24 = "Junio";
+var TEXT25 = "Julio";
+var TEXT26 = "Agosto";
+var TEXT27 = "Septiembre";
+var TEXT28 = "Octubre";
+var TEXT29 = "Noviembre";
+var TEXT30 = "Diciembre";
+%>

@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>¿Qué hay nuevo?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="Css/Main.css" type="text/css">
+<link rel="stylesheet" href="Css/EvalResult.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr> 
+    <td class="ToolBar"> 
+      <table border="0" cellspacing="0" cellpadding="0" class="ToolBar" width="100%">
+        <tr> 
+          <td width="1%"><img src="Images/HelpIMG.gif" width="80" height="54"></td>
+          <td class="HeaderTable" width="99%">
+            <table border="0" cellspacing="0" cellpadding="0" class="ToolBar" width="100%">
+             <tr> 
+               <td  align=right><h6>Sistema de Enseñanza Personalizada a Distancia</h6></td>
+            </tr>
+             <tr> 
+               <td class="HeaderTable" align=center colspan=2><b > ¿Qué hay nuevo?</b></td>
+            </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr> 
+    <td><b class="SubTitle">¿Qué hay nuevo?</b> </td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="95%" border="0" cellspacing="2" cellpadding="2" align="center">
+        <tr> 
+          <td > 
+            <p align=justify>
+<b class="SubTitle">Reestructuración metodológica.</b><br>
+La estructura metodológica del SEPAD en su versión1.2 tenía como nivel máximo el Módulo cuya funcionalidad 
+era muy limitada y más bien  era una forma de organizar los Cursos que constituían el siguiente nivel. Los 
+Cursos si tenían un prólogo que detallaba sus datos generales, tenían asignados un grupo de tutores  o 
+profesores, pero no había una definición de quien era el profesor principal ni quienes eran los alumnos 
+asignados a cada tutor y los tutores tenían que seguir el proceso de aprendizaje de sus alumnos mezclados 
+con los demás que no le pertenecían. <br>
+A partir de la versión 1.5 se establece una nueva estructura. La Modalidad Académica y cada modalidad 
+contiene uno o varios Módulos.  La Modalidad Académica tiene una funcionalidad bien definida, puede 
+ser un Diplomado, Curso, Entrenamiento,  Doctorado, Maestría, etc. Aparece entonces ligado a la modalidad 
+académica un nuevo rol: el coordinador, cuya función es ser el responsable de la modalidad y todos sus módulos,
+velar por el claustro de profesores, atender las solicitudes de matrículas así como crear los nuevos Módulos 
+y designar los sus respectivos profesores principales. Las modalidades  tienen cada una sección de Generalidades
+que sería similar a lo que era el prólogo para un curso en la  versión 1.2, pero con muchos más datos, una 
+presentación del claustro y los módulos que contiene. El  Módulo es lo que era antes el Curso, como nuevo 
+tendría un profesor principal asignado que sería un nuevo rol responsable del módulo y de crear los subgrupos 
+tutoreados. El subgrupo tutoreado es un grupo de alumnos matriculados en la modalidad a los que se les asocia 
+un tutor que tiene que ser parte del claustro de la modalidad. Esto genera un nuevo rol que es el tutor cuya 
+responsabilidad es dar seguimiento al  proceso de aprendizaje de sus alumnos y no tiene acceso a los demás 
+alumnos fuera de su subgrupo. La modalidad académica debe crearse en línea y los módulos deben publicarse 
+con la herramienta de publicación por los profesores principales. 
+
+Resumiendo:<br>
+La nueva estructura sería:<br> 
+&nbsp;  Modalidad Académica<br>
+&nbsp;  Modulos<br>
+&nbsp;  Lecciones<br>
+&nbsp;  Materiales<br>
+&nbsp;  Autoevaluaciones<br>
+<br>
+Los roles quedarían:<br>
+&nbsp;   Administrador<br>
+&nbsp;   Coordinador de la modalidad académica<br>
+&nbsp;   Profesor Principal del modulo<br>
+&nbsp;   Tutor del subgrupo tutoreado<br>
+&nbsp;   Alumno<br>
+&nbsp;   Usuario<br>
+De estos roles absoluto solamente es el de administrador, el resto son relativos a la sección donde se encuentre, 
+por ejemplo el coordinador de una modalidad académica puede ser un simple alumno para otra modalidad donde esté 
+matriculado o un usuario sin acceso a una modalidad donde no este matriculado. 
+
+<br><br>            
+<b class="SubTitle">Objetos con estado variable</b><br>
+Tanto la modalidad académica, el módulo como la lección pueden pasar por varios estados:
+<ul>
+  <li> Estados de la modalidad académica:
+                <UL>
+                  <li><strong>No visible:</strong> la modalidad acad&eacute;mica 
+                    no estar&aacute; visible para el alumno. </li>
+                  <li><strong>Deshabilitado:</strong> no se tiene acceso a los m&oacute;dulos 
+                    de esta modalidad, ni se permite solicitar matrícula a ella.</li>
+                  <li><strong>En inscripción:</strong> se puede matricular en 
+                    esta modalidad mediante la opci&oacute;n <strong>Solicitar 
+                    matr&iacute;cula</strong>. No se pueden acceder los m&oacute;dulos.</li>
+                  <li><strong>En curso:</strong> No se permite solicitar matr&iacute;cula, 
+                    pero se tiene acceso a todos los m&oacute;dulos de esta modalidad.</li>
+                  <li><strong>En inscripción-en curso:</strong> es una uni&oacute;n 
+                    de los estados En inscripci&oacute;n y En curso. En &eacute;l 
+                    se permite matricular a trav&eacute;s de la opci&oacute;n 
+                    <strong>Solicitar matr&iacute;cula</strong> y adem&aacute;s 
+                    se tiene acceso a los m&oacute;dulos de esa modalidad acad&eacute;mica.</li>
+                  <li><strong>Finalizado</strong>: Se tiene acceso a los datos 
+                    hist&oacute;ricos de la modalidad y no se puede acceder a los modulos</li>
+                </UL>
+  </li>
+  <li> Estados del módulo:
+                <ul>
+                  <li> <strong>No visible</strong>: el m&oacute;dulo no estar&aacute; 
+                    visible para el alumno.</li>
+                  <li> <strong>Deshabilitado</strong>: el alumno solo tendr&aacute; 
+                    acceso a las generalidades del m&oacute;dulo, pero las lecciones 
+                    se encontrar&aacute;n deshabilitadas.</li>
+                  <li> <strong>En curso</strong>: el alumno tiene acceso tanto 
+                    a las generalidades del m&oacute;dulo como a las lecciones 
+                    que se le ofrecen.</li>
+                  <li> <strong>Finalizado</strong>: se tiene acceso a las generalidades 
+                    del m&oacute;dulo y a los datos hist&oacute;ricos de las lecciones.</li>
+                </ul>
+  
+  </li>
+  <li> Estados de las lecciones:
+                <ul>
+                  <li> <strong>No visible</strong>: la lección no estar&aacute; 
+                    visible para el alumno.</li>
+                  <li> <strong>Deshabilitado</strong>: el alumno no tendr&aacute; 
+                    acceso a la lección.</li>
+                  <li> <strong>En curso</strong>: el alumno tiene acceso a la lección.</li>
+                </ul>
+  
+  </li>
+  
+</ul>
+
+
+<br><br>            
+<b class="SubTitle">Aula Virtual</b><br>
+En esta nueva versión se reorganizaron todos los servicios académicos en el aula virtual. Allí se encuentra la navegación de lecciones, las auto evaluaciones, reportes, foros, salas de Chat del módulo, sistema de anuncios, etc.
+<br><br>
+<b class="SubTitle">Chat</b><br>
+El nuevo Chat es multisala. Se puede configurar quienes pueden hablar y quienes solo pueden ver lo que se está hablando. Además permite el envío de mensajes privados.
+<br><br>
+<b class="SubTitle">Sistema de anuncios</b><br>
+Esta sección permite dejar anuncios cortos para cada modalidad con la posibilidad de que expiren pasado un tiempo especificado. Todos pueden poner anuncios y quien los pone puede eliminarlos o modificarlos.
+<br><br>
+<b class="SubTitle">Reestructuración de las noticias</b><br>
+Ahora las noticias al igual que los anuncios pueden ser publicadas por todos y quien las publica puede eliminarla o modificarla.
+<br><br>
+<b class="SubTitle">Ampliación del perfil de los usuarios</b><br>
+Nuevos datos de los usuarios son almacenados, como dirección, perfil laboral, perfil investigativo, etc. Además existe una nueva opción que da la posibilidad de que los mensajes internos se notifiquen a la cuenta de correo externa.
+
+            
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<SCRIPT LANGUAGE=JScript RUNAT=Server>
+
+function Application_OnEnd()
+  {
+  }
+  
+function Application_OnStart()
+  {	
+
+  Application.Lock();
+  
+  Application("Config") = "XML/config.xml";
+
+
+/*    Application("dataPath")       = "sepad";
+    Application("SQL");
+    Application("filePath")       = Application("dataPath");   
+ */
+  //Leyendo configuracion general...
+ 
+    var sXml = Application("Config");
+    var oXmlDoc = Server.CreateObject("MICROSOFT.XMLDOM");
+    oXmlDoc.async = false; 
+    oXmlDoc.load(Server.MapPath(sXml));
+    //oXmlDoc.load('D:\\sepad\\webapp\\XML\\config.xml');
+
+    //DBConn
+    Application("SQL")            = oXmlDoc.documentElement.selectSingleNode("/SysConfig/DBConnection/SQL").text;
+    Application("dataPath")       = oXmlDoc.documentElement.selectSingleNode("/SysConfig/DBConnection/DSN").text;
+    Application("filePath")       = Application("dataPath");   
+
+
+    //MailReply
+    Application("MailUser")       = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/User").text;
+    Application("MailServer")     = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Server").text;
+    Application("MailAddress")    = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Address").text;
+    Application("MailPassword")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Password").text;
+    Application("Port")   = parseInt(oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Port").text);
+    Application("Auth")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Auth").text;
+    Application("Subject")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Subject").text;
+    Application("Body")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/MailReply/Body").text;
+
+    //General
+    Application("LogoImg")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/General/Logo").text;
+    Application("HomePage")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/General/Homepage").text;
+    Application("Downloads")   = oXmlDoc.documentElement.selectSingleNode("/SysConfig/General/Downloads").text;
+    Application("ListSize")   = parseInt(oXmlDoc.documentElement.selectSingleNode("/SysConfig/General/MaxList").text);
+    Application("NewNews")   = parseInt(oXmlDoc.documentElement.selectSingleNode("/SysConfig/General/NewNews").text);
+
+    Application("TOPMSG")       = 50;   
+    Application("AutoMtr") = "1";
+
+    oXmlDoc = null;
+    
+  //...
+
+  
+ 
+    Application("activeUsers")    = "";
+    Application("activeMachines") = "";   
+    Application("usersCount")     = 0;
+    
+
+
+	 if (Application("SQL")	== true) {
+	   Application("dchar") = "'";
+	   Application("dtrue") = "1";
+           Application("dfalse") = "0";	   
+	 }  
+	 else {
+	   Application("dchar") = "#";
+	   Application("dtrue") = "true";
+           Application("dfalse") = "false";	   
+	 }  
+    Application.Lock();
+	 
+  }
+
+
+function MyRandom(maxvalue)
+
+  {
+   return parseInt(((maxvalue - 1 + 1) * Math.random() + 1),10);
+ 
+  }  
+
+  
+function Session_OnStart()
+  {
+   Session("course")        = "";
+   Session("courseName")    = "";
+   Session("lastLesson")    = "";
+   Session("lastLessonUrl") = "";  
+   Session("userID")        = 0;
+ //  Session.Timeout          = 2;
+   Session("textPermission")= "";
+   Session("fullName")      = "";
+   Session("userVisit")     = 0;
+   Session("name")			= "";
+   Session("uid")          = MyRandom(10000) + "" + Session.SessionID;
+ //  Session("uid")          = Session.SessionID;
+  // Session("uid")          = 100;
+  }
+
+
+</SCRIPT>

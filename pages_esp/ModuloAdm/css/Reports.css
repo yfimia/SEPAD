@@ -1,0 +1,35 @@
+TABLE {
+	font-size : 11px;
+	border : 1px solid Black;
+}
+
+TD {
+	font-size : 11px;
+}
+
+
+BODY {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+TD.Main {
+	background-color : Black;
+	color : White;
+	font-size : 12px;
+}
+
+TD.Last {
+	border-top-style : solid;
+	border-top-color : Black;
+	border-top-width : 1px;
+}
+
+TD.First {
+	border-top-style : solid;
+	border-top-color : Black;
+	border-top-width : 1px;
+	border-right-color : Black;
+	border-right-style : solid;
+	border-right-width : 1px;
+}

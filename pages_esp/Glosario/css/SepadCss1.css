@@ -1,0 +1,149 @@
+BODY
+{
+    BACKGROUND-COLOR: silver;
+    FONT-FAMILY: Verdana;
+    MARGIN: 5px
+}
+TABLE.BorderTable
+{
+    BACKGROUND-COLOR: transparent;
+    BORDER-BOTTOM: gray thin solid;
+    BORDER-LEFT: gray thin solid;
+    BORDER-RIGHT: gray thin solid;
+    BORDER-TOP: gray thin solid;
+    TEXT-ALIGN: center;
+    WIDTH: 100%
+}
+TABLE.MainTable
+{
+    TEXT-ALIGN: center;
+    WIDTH: 100%
+}
+TABLE.MainTable TR.MainTR
+{
+    BACKGROUND-COLOR: gray;
+    COLOR: white;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: bolder
+}
+TABLE.MainTable TR.MessageTR
+{
+    BACKGROUND-COLOR: silver;
+    COLOR: black;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: left
+}
+INPUT.MessageAddr
+{
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: lighter;
+    WIDTH: 100%
+}
+INPUT.TEdit
+{
+    BORDER-BOTTOM: gray thin solid;
+    BORDER-LEFT: gray thin solid;
+    BORDER-RIGHT: gray thin solid;
+    BORDER-TOP: gray thin solid;
+    HEIGHT: 100%;
+    WIDTH: 100%
+}
+A.TLink
+{
+    FONT-WEIGHT: bolder
+}
+P.Paragraph
+{
+    FONT-WEIGHT: lighter
+}
+TABLE.MessageTable
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    MARGIN: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    TEXT-ALIGN: center;
+    WIDTH: 100%
+}
+TABLE.MessageTable TD.MainTD
+{
+    BACKGROUND-COLOR: #999999;
+    COLOR: white;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TABLE.MessageTable TD.DatTD
+{
+    BACKGROUND-COLOR: lightgrey;
+    COLOR: black;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+TEXTAREA.MArea
+{
+    BORDER-BOTTOM: gray thin solid;
+    BORDER-LEFT: gray thin solid;
+    BORDER-RIGHT: gray thin solid;
+    BORDER-TOP: gray thin solid;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: lighter;
+    HEIGHT: 100%;
+    WIDTH: 100%
+}
+SELECT.MCombo
+{
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: lighter;
+    HEIGHT: 100%;
+    WIDTH: 100%
+}
+BODY.Body1
+{
+    BACKGROUND-COLOR: silver;
+    FONT-FAMILY: Verdana;
+    MARGIN: 22px 0px 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 12px
+}
+TABLE.MainTable TR.NewMTR
+{
+    BACKGROUND-COLOR: gray;
+    COLOR: white;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: bolder
+}
+B
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: bolder
+}
+B.B1
+{
+    FONT-FAMILY: Verdana;
+    COLOR: blue;
+    FONT-SIZE: small;
+    FONT-WEIGHT: bolder
+}
+B.B2
+{
+    FONT-FAMILY: Verdana;
+    COLOR: maroon;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: bolder
+}
+H2
+{
+    FONT-SIZE: normal;
+    COLOR: maroon;
+    TEXT-ALIGN: center;
+    FONT-WEIGHT: bolder;
+}

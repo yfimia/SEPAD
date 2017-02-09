@@ -1,0 +1,31 @@
+Older Colors
+
+ToolBars       --> #6699CC
+MARQUEE        --> #CCCCCC
+MARQUEE border --> #CCCCCC
+
+Actual Colors
+
+ToolBars --> #09A99D
+MARQUEE        --> #F0FFF0
+MARQUEE border --> #3CB371
+
+ALL Links BG    --> 
+ALL Links COLOR --> #228B22
+
+ALL Links HOVER BG    --> 
+ALL Links HOVER COLOR --> #D2691E
+
+ToolbarLinks hover BG --> #006400
+ToolbarLinks hover COLOR --> #FFFFFF
+TableCellsTiltles BG --> #E2E2E2
+TableCellsTiltles border --> #cccccc
+
+
+
+
+// INFOMED Colors
+
+#09A99D -- Verde
+#FFCC99 -- Naranja claro
+#CC9966 -- Naranja oscuro

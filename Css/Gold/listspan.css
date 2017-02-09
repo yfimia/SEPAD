@@ -1,0 +1,37 @@
+UL {
+margin-left:15px;
+margin-bottom:5px;
+color : #34349A;;
+}
+
+LI UL { 
+display:none; margin-left:16px; 
+}
+
+LI {
+list-style-type:None;
+cursor:default;
+font-size : xx-small;
+}
+LI.clsHasKidsCollapsed {
+cursor:hand;
+list-style-image:url(../../Images/TreeIcons/Collapsed.gif);
+}
+LI.clsHasKids SPAN {
+cursor:hand;
+}
+
+.clsHasKidsExpanded {
+list-style-image:url(../../Images/TreeIcons/Expanded.gif);
+cursor:hand;
+}
+
+.clsDocument {
+list-style-image: none;
+list-style-type:none;
+}
+
+.IconClass{
+ border-width:0;
+ vertical-align: middle;
+}

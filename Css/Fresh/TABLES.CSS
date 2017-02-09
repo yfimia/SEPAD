@@ -1,0 +1,187 @@
+.BorderedTable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	width: 100%;
+	border: 1px solid #000099;
+	text-decoration: none;
+	text-align: center;
+}
+.Header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	background-color: #000099;
+
+}
+.Header1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-decoration: none;
+	text-align: left;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	background-color: #000099;
+
+}
+.DataCell {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-decoration: none;
+	text-align: center;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #99CCFF;
+}
+.PuntuationCell {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #996600;
+	background-color: #99CCFF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000099;
+
+
+}
+.DataCell1 {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-decoration: none;
+	text-align: center;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #71B8FF;
+}
+.DescCell {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-decoration: none;
+	text-align: justify;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #99CCFF;
+}
+.DescCell1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-decoration: none;
+	text-align: justify;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #71B8FF;
+}
+.PuntuationCell1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #993300;
+	background-color: #71B8FF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000099;
+
+}
+.TitleTable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	color: #FFFFFF;
+	filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+
+
+}
+.AuthorTD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: left;
+	white-space: nowrap;
+	background-color: #000099;
+	color : White;
+}
+.AuthorHeaderTD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	text-transform: none;
+	text-decoration: none;
+	background-color: #000099;
+	color: #FFFFFF;
+
+
+}
+.CourseTitleTD {
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+	font-weight: bolder;
+	text-decoration: none;
+	text-align: left;
+	white-space: nowrap;
+	filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+	color: #FFFFFF;
+}
+.CourseTitleTD1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: small;
+	font-weight: bolder;
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: left;
+	white-space: nowrap;
+	filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+	color: #FFFFFF;
+}
+.CourseTitleTD2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: small;
+	font-weight: lighter;
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: left;
+	white-space: nowrap;
+	filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+	color: #FFFFFF;
+}
+.BorderedTable1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	width: 100%;
+	border: 1px solid #000099;
+	text-decoration: none;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+TABLE {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : x-small;
+	color : White;
+}
+
+.PlainTable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	width: 100%;	
+	text-decoration: none;
+	text-align: left;
+	color: #FFFFFF;
+}

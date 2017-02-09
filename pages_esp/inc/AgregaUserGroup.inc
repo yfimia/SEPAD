@@ -1,0 +1,10 @@
+<%grup="Grupos:"%>
+<%list="Listado de usuarios"%>
+<%ident="Identificador"%>
+<%nomyapell="Nombre y apellidos"%>
+<%borrar="Borrar"%>
+<%noelem="No quedan más elementos."%>
+<%adic="Adicionar"%>
+<%select="Seleccionar"%>
+<%todo="Todo"%>
+<%prox="Próximos"%>

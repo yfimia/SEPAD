@@ -1,0 +1,2 @@
+titulo = "Arbol";
+Back = "Regresar";

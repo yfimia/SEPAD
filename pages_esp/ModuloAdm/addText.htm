@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Adicionar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../css/Main.css" type="text/css">
+<link rel="stylesheet" href="../../css/EvalResult.css" type="text/css">
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="ToolBar">
+      <table border="0" cellspacing="0" cellpadding="0" class="ToolBar">
+        <tr> 
+          <td class="HeaderTable"  align=center><b id=tex >Modificar generalidades del módulo</b></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+    <table width="100%" border="0" cellspacing="1" cellpadding="1" align="center">
+      <tr>
+        <td  Class="MessageTR1"align=left >
+           <textarea id="texto" rows="5" cols="55" maxlength=250>
+            </textarea>
+        </td>
+      </tr>
+   </table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="ToolBar">
+      <table border="0" cellspacing="0" cellpadding="0" class="ToolBar">
+        <tr> 
+          <td class="HeaderTable"  align=center><center><input type="button" value="Aceptar" onclick="gogogo()"></center>
+</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<script language=jscript>
+ returnValue = ''; 
+ if ((dialogArguments[0] != '') && (dialogArguments[0] + '' != 'undefined')) {
+ tex.innerText = dialogArguments[0];  
+ }
+ if ((dialogArguments[1] != '') && (dialogArguments[1] + '' != 'undefined')) {
+   texto.innerText = dialogArguments[1];  
+ }  
+ function gogogo() {
+   returnValue=texto.innerText; 
+   close(); 
+ }
+</script>
+
+</body>
+</html>

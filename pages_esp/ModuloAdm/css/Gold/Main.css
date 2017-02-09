@@ -1,0 +1,87 @@
+body {  font-family: Verdana; font-size: xx-small; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;  background : #FFFFDD; }
+.MainBody {  font-family: Verdana; font-size: xx-small; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; overflow: hidden; border: #993300;  color : Maroon; }
+.ServicesTable {  font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; background-color: #993300; color: #FFFFFF; padding-right: 2px; padding-left: 2px}
+table {  font-family: Verdana; font-size: xx-small}
+ul {  clip:    rect(0px  0px ); margin-left: 15px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px}
+a {  font-family: Verdana; font-size: xx-small; text-decoration: underline; color: #993300;
+}
+a:hover {  font-family: Verdana; font-size: xx-small; text-decoration: underline; color: #993300;
+}
+a:active {  font-weight: bolder; text-decoration: underline; color: #FF6600 }
+a.ToolBarLink {  font-family: Verdana; font-size: xx-small; text-decoration: none; color: #FFCC00;
+}
+a.ToolBarLink:hover {  font-family: Verdana; font-size: xx-small; text-decoration: underline; color: #ffffff}
+.ToolLink:link {  font-family: Verdana; font-size: xx-small; color: #CC9966; text-decoration: none; width: 100%}
+.ToolLink:hover {  font-family: Verdana; font-size: xx-small; color: #996600; background-color: #FFCC00; text-decoration: none; width: 100%}
+.ToolLink:visited {  font-family: Verdana; font-size: xx-small; color: #CC9966; text-decoration: none; width: 100%}
+.DateTable {  font-family: Verdana; font-size: xx-small; color: #000000; text-decoration: none; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+.MarqueeStd {  font-family: Verdana; font-size: xx-small; color: #000000; text-decoration: none; background-color: #FFE4B5; width: 100%}
+.MarqueeTD {  font-family: Verdana; font-size: xx-small; background-color: #BC8F8F; border-color: #CCCCCC black black; border-style: none; border-top-width: thin; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.Separator {  font-family: Verdana; font-size: xx-small; color: #FFFFFF}
+.CouseTable {  overflow: auto; clip:   rect(   ); margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: left}
+.CouserLink:link {  font-family: Verdana; font-size: xx-small; text-decoration: none; width: 100%; color: #993300;  background-color : #993300; }
+.CouserLink:active {  font-family: Verdana; font-size: xx-small; text-decoration: underline; width: 100%; color: #993300;
+}
+.CouserLink:hover {  font-family: Verdana; font-size: xx-small; text-decoration: underline; width: 100%; color: #000000}
+.CouseTD { overflow: auto}
+.Icon {  margin-right: 5px; text-align: left; float: left}
+.ToolTD {  padding-right: 5px; padding-left: 5px}
+.ToolBar { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; background-color: #993300; color: #CC9966; padding-right: 2px; padding-left: 2px }
+.TreeView { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; background-color: #993300; color: #FFFFFF; padding-right: 2px; padding-left: 2px ; border: #993300; border-style: outset; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin }
+.TreeViewBody { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; color: #FFFFFF; padding-right: 0px; padding-left: 0px; border: #993300 outset; border-width: 0px thin thin; overflow: auto; clip:  rect(   )}
+.TemasAsociados {  font-family: Verdana; font-size: xx-small; text-decoration: none; width: 80%}
+.TemasAsociadosTable { font-family: Verdana; font-size: xx-small; color: #FFFFFF; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+.ComboBody { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; background-color: #993300; color: #FFFFFF; border: #993300; margin-top: 0px; margin-bottom: 0px; overflow: hidden; clip:  rect(   )}
+.ToolBarBody { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; background-color: #993300; color: #FFFFFF; border: #993300; margin-top: 0px; margin-bottom: 0px ; border-width: thin thin 0px}
+.CourseLI { padding-top: 2px; padding-bottom: 2px }
+input {  font-family: Verdana; font-size: xx-small}
+.PublishedCoursesTD {  font-family: Verdana; font-size: xx-small; font-weight: bolder; color: #000000; background-color: #CCCCCC; text-decoration: underline}
+.AsociativedThemes {  font-family: Verdana; font-size: xx-small; font-weight: lighter; color: #000000; text-decoration: none}
+.AdminToolBar {  font-family: Verdana; font-size: xx-small; background-color: #CCCCCC; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px}
+.BorderedTable {  font-family: Verdana; font-size: xx-small; border: thin #000066 none}
+select {  font-family: Verdana; font-size: xx-small}
+.StatisticTable { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; background-color: #993300; color: #FFFFFF; padding-right: 2px; padding-left: 2px ; border: #993300;
+}
+.StatiscticTD1 { font-family: Verdana; font-size: xx-small; background-color: #CCCCCC; border-color: #CCCCCC black black; border-style: solid; border-top-width: thin; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px ; color: #000000}
+.StatiscticTD2 { font-family: Verdana; font-size: xx-small; background-color: #E5E5E5; border-color: #CCCCCC black black; border-style: solid; border-top-width: thin; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px ; color: #000000}
+.StCTD {  font-family: Verdana; font-size: small}
+.StatisticBody { font-family: Verdana; font-size: xx-small; margin-right: 0px; margin-left: 0px; color: #000000; padding-right: 2px; padding-left: 2px ; border: #993300;
+}
+.LoginTable { font-family: Verdana; font-size: xx-small; border: thin none; border-color: #993300 #993300 #993300 #666666;
+}
+.LBTD {  border-color: black black black #993300; border-style: outset; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: thin}
+.PriorTD {  font-family: Verdana; font-size: medium; color: #FF0000; text-decoration: none; font-weight: bolder}
+.MessageBarTD {  font-family: Verdana; font-size: xx-small; background-color: #993300;
+}
+.MessageInfo { font-family: Verdana; font-size: xx-small; background-color: #CCCCCC; border: thin #CCCCCC outset; font-weight: bolder; text-align: center}
+.MessageTR {  color: #000000; background-color: #DBDBDB}
+.OverTR { font-family: Verdana; font-size: xx-small; color: #000000; background-color: #FF9900; cursor: hand}
+.MessageTR1 { color: #000000; background-color: #EBEBEB}
+h2 {  font-family: "Times New Roman", Times, serif; font-size: 24px; text-decoration: none}
+h2 {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+.PrologueTable {  border: #993300; border-style: solid; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin}
+.EvaluationBody { font-family: Verdana; font-size: xx-small; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; overflow: auto; clip:   rect(   )}
+.ComboBox {  font-family: Verdana; font-size: xx-small; width: 80%}
+textarea {  font-family: Verdana; font-size: xx-small}
+.TextArea {  font-family: Verdana; font-size: xx-small; width: 100%}
+.Edit {  font-family: Verdana; font-size: xx-small}
+.ColumnConnectEx {  font-family: Verdana; font-size: xx-small; border: #993300; border-style: solid; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin}
+.EvaluationBody {  padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+.BorderedDiv {  border: 1px #FFFFFF solid}
+.ModifyBtnLnk { font-family: Verdana; font-size: xx-small; text-decoration: underline; color: #993300;
+}
+.ModifyBtnLnk:hover { font-family: Verdana; font-size: xx-small; text-decoration: underline; color: #FF6600}
+.Header {  font-family: Verdana; font-size: x-small; color: #000000; text-align: center}
+.ComboBox1 { font-family: Verdana; font-size: xx-small; width: 190px}
+.TreeLnk { font-family: Verdana; font-size: xx-small; text-decoration: none; color: #000000 }
+.TreeLnk:hover { font-family: Verdana; font-size: xx-small; text-decoration: underline; color: #FF6600}
+.LessonHeaderTable {  font-family: Verdana; font-size: 18px; color: #FFFFFF}
+.LessonHeaderTable1 {   font-family: Verdana; font-size: 14px; color: #000000; background-color: #EBEBEB}
+.Header4 { font-family: Verdana; font-size: x-small; font-weight: normal}.P0Header {  font-family: "Times New Roman", Times, serif; font-size: x-large; text-decoration: none; color: #0066CC}
+.ChatEdit {  font-family: Verdana; font-size: xx-small; width: 100%}
+.SubTitle {  font-family: Verdana; font-size: x-small; font-weight: bolder; color: #FFFFFF; background-color: #993300;
+}
+.Table1 {
+	border : 1px solid Black;
+	background : #FDF5E6;
+}

@@ -1,0 +1,11 @@
+<%titulo="Listado de mensajes"
+<%infor1="Todos los temas"%>
+<%infor2="Lista de mensages"%>
+<%autor="Autor"%>
+<%texto="Texto"%>
+<%enviado="Enviado:"%>
+<%noacept="No aceptar respuestas"%>
+<%siacept="Aceptar respuestas"%>
+<%noelem="No quedan más elementos."%>
+<%prox="Próximos"%>
+<%init="Inicio"%>

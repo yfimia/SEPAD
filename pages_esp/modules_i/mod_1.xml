@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Modulo 1>
+	<Name>Nombre del modulo</Name>
+	<FolderName>Carpeta asociada al modulo</FolderName>
+	<PageToShow>Pagina a mostrar dentro de la carpeta</PageToShow>
+</Modulo 1>

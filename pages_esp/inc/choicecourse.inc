@@ -1,0 +1,32 @@
+<%
+var stmp1 = "Usuario Activo: ";
+var stmp2 = "Privilegios: ";
+var stmp3 = "Fecha: ";
+var stmp4 = "Visita No.: ";
+var stmp5 = "Identificador:";
+var stmp6 = "Contraseña:";
+var stmp7 = "Aceptar";
+var stmp8 = "Registrarse en SEPAD";
+var stmp9 = "Inicio";
+var stmp10 = "'Adminsitración'";
+var stmp11 = "Administración";
+var stmp12 = "'chpw'";
+var stmp13 = "Datos&nbsp;Personales";
+var stmp14 = "'Mensajería'";
+var stmp15 = "Mensajería";
+var stmp16 = "'Chat'";
+var stmp17 = "Chat";
+var stmp18 = "'Estadisticas_del_Sistema'";
+var stmp19 = "Calificaciones";
+var stmp20 = "'Estadisticas_del_Sistema'";
+var stmp21 = "Datos del Sistema";
+var stmp22 = "'Noticias'";
+var stmp23 = "Noticias";
+var stmp24 = "'Ayuda'";
+var stmp25 = "Ayuda";
+var stmp26 = "'Ayuda'";
+var stmp27 = "Acerca&nbsp;de...";
+var stmp31 = "Agenda";
+var stmp32 = "'Agenda'";
+var stmp33 = "Configuración&nbsp;de&nbsp;Inicio";
+%>

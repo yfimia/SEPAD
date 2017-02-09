@@ -1,0 +1,11 @@
+titulo = "Matricular usuarios";
+Subg = "Subgrupo:";
+ListUsr = "Listado de usuarios";
+Note = "Nota: Los alumnos que no se se listan aquí ya tienen un tutor asignado.";
+Ident = "Identificador";
+NomApe = "Nombre y apellidos";
+Note1 = "No quedan más elementos.";
+Add = "Adicionar";
+Selec = "Seleccionar";
+All = "Todo";
+Next = "Próximos";

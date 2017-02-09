@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SysConfig>
+	<DBConnection>
+		<DSN>sepad</DSN>
+		<SQL>1</SQL>
+	</DBConnection>
+	<General>
+		<Logo>MainImage.gif</Logo>
+		<Homepage>P0.asp</Homepage>
+		<Downloads>Downloads.asp</Downloads>
+		<MaxList>1000</MaxList>
+		<NewNews>15</NewNews>
+		<AutoMtr>0</AutoMtr>
+	</General>
+	<MailReply>
+		<User>sepadservice</User>
+		<Password></Password>
+		<Address>sepadservice@uclv.edu.cu</Address>
+		<Server>172.20.17.3</Server>
+		<Port>25</Port>
+		<Auth>1</Auth>
+		<Subject>Resultados de su solicitud de subscripción a SEPAD</Subject>
+		<Body>Su subscripción a SEPAD ha sido aceptada y su cuenta ya se encuentra habilitada. Ahora puede consultar los prólogos de los cursos y solicitar matrículas a los que le resulte de interés.
+SEPAD
+Sistema de Enseñanza Personalizada A Distancia
+
+Fax: 53-42-281618
+Soporte técnico: sepadservice@uclv.edu.cu
+Servicio de acceso por correo: sepadmail@uclv.edu.cu
+Sito oficial de SEPAD: http://sepad.cvep.uclv.edu.cu
+Carretera a Camajuaní,
+Km 5 1/2.
+Santa Clara, Villa Clara
+Cuba
+Universidad Central Martha Abreu de Las Villas</Body>
+	</MailReply>
+</SysConfig>

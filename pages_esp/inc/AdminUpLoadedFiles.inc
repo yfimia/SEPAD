@@ -1,0 +1,15 @@
+<%titulo="Listado de trabajos enviados para el curso >>"%>
+<%archivo="Archivo"%>
+<%tamano="Tamaño"%>
+<%descripcion="Descripci&oacute;n"%>
+<%usuario="Usuario"%>
+<%fecha="Fecha"%>
+<%mestam="Tamaño usado:"%>
+<%tammax="Tamaño máximo permitido:"%>
+<%notrab="No hay trabajos enviados."%>
+<%eliminar="Eliminar"%>
+<%seleccionar="Seleccionar"%>
+<%todo="Todo"%>
+<%cerrar="Cerrar"%>
+<%prox="Próximos"%>
+<%titulopagina="Manipular trabajos enviados"%>

@@ -1,0 +1,589 @@
+BODY
+{   
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px;
+    background-color : #FFFAF0;
+}
+.MainBody
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px;
+    OVERFLOW: hidden
+}
+.ServicesTable
+{
+    BACKGROUND-COLOR: #09a99d;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px
+}
+TABLE
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+UL
+{
+    CLIP: ;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-LEFT: 15px;
+    MARGIN-TOP: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+A
+{
+    COLOR: #228B22;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    COLOR: #D2691E;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline
+}
+A:active
+{
+    COLOR: #228B22;
+    FONT-WEIGHT: bolder;
+    TEXT-DECORATION: underline
+}
+A.ToolBarLink
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none
+}
+A.ToolBarLink:hover
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline
+}
+.ToolLink:link
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none;
+    WIDTH: 100%
+}
+.ToolLink:hover
+{
+    BACKGROUND-COLOR: #006400;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none;
+    WIDTH: 100%;
+}
+.ToolLink:visited
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none;
+    WIDTH: 100%
+}
+.DateTable
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px;
+    TEXT-DECORATION: none
+}
+.MarqueeStd
+{
+    BACKGROUND-COLOR: #F0FFF0;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none;
+    WIDTH: 100%
+}
+.MarqueeTD
+{
+    BACKGROUND-COLOR: #F0FFF0;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    border-top : 1px solid #3CB371;
+}
+.Separator
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.CouseTable
+{
+    MARGIN: 0px;
+    OVERFLOW: auto;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    TEXT-ALIGN: left
+}
+.CouserLink:link
+{
+    COLOR: #09a99d;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none;
+    WIDTH: 100%
+}
+.CouserLink:active
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline;
+    WIDTH: 100%
+}
+.CouserLink:hover
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline;
+    WIDTH: 100%
+}
+.CouseTD
+{
+    OVERFLOW: auto
+}
+.Icon
+{
+    FLOAT: left;
+    MARGIN-RIGHT: 5px;
+    TEXT-ALIGN: left
+}
+.ToolTD
+{
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px
+}
+.ToolBar
+{
+    BACKGROUND-COLOR: #09a99d;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px
+}
+.TreeView
+{
+    BACKGROUND-COLOR: #09a99d;
+    BORDER-BOTTOM: #09a99d thin outset;
+    BORDER-LEFT: #09a99d thin outset;
+    BORDER-RIGHT: #09a99d thin outset;
+    BORDER-TOP: #09a99d thin outset;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px
+}
+.TreeViewBody
+{
+    BORDER-BOTTOM: #09a99d thin outset;
+    BORDER-LEFT: #09a99d thin outset;
+    BORDER-RIGHT: #09a99d thin outset;
+    BORDER-TOP: #09a99d 0px outset;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    OVERFLOW: auto;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px
+}
+.TemasAsociados
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none;
+    WIDTH: 80%
+}
+.TemasAsociadosTable
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+.ComboBody
+{
+    BACKGROUND-COLOR: #09a99d;
+    BORDER-BOTTOM: #09a99d thin outset;
+    BORDER-LEFT: #09a99d thin outset;
+    BORDER-RIGHT: #09a99d thin outset;
+    BORDER-TOP: #09a99d thin outset;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px;
+    OVERFLOW: hidden
+}
+.ToolBarBody
+{
+    BACKGROUND-COLOR: #09a99d;
+    BORDER-BOTTOM: #09a99d 0px outset;
+    BORDER-LEFT: #09a99d thin outset;
+    BORDER-RIGHT: #09a99d thin outset;
+    BORDER-TOP: #09a99d thin outset;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px
+}
+.CourseLI
+{
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px
+}
+INPUT
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.PublishedCoursesTD
+{
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    FONT-WEIGHT: bolder;
+    TEXT-DECORATION: underline
+}
+.AsociativedThemes
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    FONT-WEIGHT: lighter;
+    TEXT-DECORATION: none
+}
+.AdminToolBar
+{
+    BACKGROUND-COLOR: #cccccc;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px;
+    PADDING-BOTTOM: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 1px;
+    PADDING-TOP: 1px
+}
+.BorderedTable
+{
+    BORDER-BOTTOM: #000066 thin;
+    BORDER-LEFT: #000066 thin;
+    BORDER-RIGHT: #000066 thin;
+    BORDER-TOP: #000066 thin;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+SELECT
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.StatisticTable
+{
+    BACKGROUND-COLOR: #09a99d;
+    BORDER-BOTTOM: #09a99d thin;
+    BORDER-LEFT: #09a99d thin;
+    BORDER-RIGHT: #09a99d thin;
+    BORDER-TOP: #09a99d thin;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px
+}
+.StatiscticTD1
+{
+    BACKGROUND-COLOR: #cccccc;
+    BORDER-BOTTOM: black 0px solid;
+    BORDER-LEFT: black 0px solid;
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: #cccccc thin solid;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.StatiscticTD2
+{
+    BACKGROUND-COLOR: #e5e5e5;
+    BORDER-BOTTOM: black 0px solid;
+    BORDER-LEFT: black 0px solid;
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: #cccccc thin solid;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.StCTD
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: small
+}
+.StatisticBody
+{
+    BORDER-BOTTOM: #09a99d thin;
+    BORDER-LEFT: #09a99d thin;
+    BORDER-RIGHT: #09a99d thin;
+    BORDER-TOP: #09a99d thin;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px
+}
+.LoginTable
+{
+    BORDER-BOTTOM: #09a99d thin;
+    BORDER-LEFT: #666666 thin;
+    BORDER-RIGHT: #09a99d thin;
+    BORDER-TOP: #09a99d thin;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.LBTD
+{
+    BORDER-BOTTOM: black 0px outset;
+    BORDER-LEFT: #09a99d thin outset;
+    BORDER-RIGHT: black 0px outset;
+    BORDER-TOP: black 0px outset
+}
+.PriorTD
+{
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: medium;
+    FONT-WEIGHT: bolder;
+    TEXT-DECORATION: none
+}
+.MessageBarTD
+{
+    BACKGROUND-COLOR: #09a99d;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.MessageInfo
+{
+    BACKGROUND-COLOR: #E2E2E2;
+    BORDER-BOTTOM: 1px outset #cccccc;
+    BORDER-LEFT: 1px outset #cccccc;
+    BORDER-RIGHT: 1px outset #cccccc;
+    BORDER-TOP: 1px outset #cccccc;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+.MessageTR
+{
+    BACKGROUND-COLOR: #dbdbdb;
+    COLOR: #000000
+}
+.OverTR
+{
+    BACKGROUND-COLOR: #ff9900;
+    COLOR: #000000;
+    CURSOR: hand;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.MessageTR1
+{
+    BACKGROUND-COLOR: #ebebeb;
+    COLOR: #000000
+}
+H2
+{
+    FONT-FAMILY: "Times New Roman", Times, serif;
+    FONT-SIZE: 24px;
+    TEXT-DECORATION: none
+}
+H2
+{
+    MARGIN: 0px
+}
+.PrologueTable
+{
+    BORDER-BOTTOM: #09a99d thin solid;
+    BORDER-LEFT: #09a99d thin solid;
+    BORDER-RIGHT: #09a99d thin solid;
+    BORDER-TOP: #09a99d thin solid
+}
+.EvaluationBody
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 5px;
+    OVERFLOW: auto
+}
+.ComboBox
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    WIDTH: 80%
+}
+TEXTAREA
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.TextArea
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    WIDTH: 100%
+}
+.Edit
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.ColumnConnectEx
+{
+    BORDER-BOTTOM: #09a99d thin solid;
+    BORDER-LEFT: #09a99d thin solid;
+    BORDER-RIGHT: #09a99d thin solid;
+    BORDER-TOP: #09a99d thin solid;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px
+}
+.EvaluationBody
+{
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    PADDING-TOP: 5px
+}
+.BorderedDiv
+{
+    BORDER-BOTTOM: #ffffff 1px solid;
+    BORDER-LEFT: #ffffff 1px solid;
+    BORDER-RIGHT: #ffffff 1px solid;
+    BORDER-TOP: #ffffff 1px solid
+}
+.ModifyBtnLnk
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline
+}
+.ModifyBtnLnk:hover
+{
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline
+}
+.Header
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: x-small;
+    TEXT-ALIGN: center
+}
+.ComboBox1
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    WIDTH: 190px
+}
+.TreeLnk
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: none
+}
+.TreeLnk:hover
+{
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    TEXT-DECORATION: underline
+}
+.LessonHeaderTable
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 18px
+}
+.LessonHeaderTable1
+{
+    BACKGROUND-COLOR: #ebebeb;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 14px
+}
+.Header4
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: normal
+}
+.P0Header
+{
+    COLOR: #0066cc;
+    FONT-FAMILY: "Times New Roman", Times, serif;
+    FONT-SIZE: x-large;
+    TEXT-DECORATION: none
+}
+.ChatEdit
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    WIDTH: 100%
+}
+.SubTitle
+{
+    BACKGROUND-COLOR: #09a99d;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: bolder
+}
+.Table1 {
+	border : 1px solid Black;
+}
+.ToolBarBodyNoBorders {
+    BACKGROUND-COLOR: #09a99d;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10 px;
+    MARGIN: 0px
+}
+
