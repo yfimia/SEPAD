@@ -39,7 +39,7 @@ function enqueue(href, from) {
   if (u.origin !== new URL(base).origin || !/\.asp$/i.test(u.pathname)) return;
   // evitar acciones destructivas al rastrear
   const baseName = u.pathname.split("/").pop();
-  if (/delete|borra|elimina|logout|salir|abandon|confirm|acepta|salvar|actualiza|proceso|agrega|update|modif|send|upload|^del[A-Z]|matricular/i.test(baseName)) return;
+  if (/delete|borra|elimina|logout|salir|abandon|confirm|acepta|salvar|actualiza|proceso|agrega|update|modif|send|upload|^del[A-Z]|matricular|^public/i.test(baseName)) return;
   // volver a default.asp cierra la sesión del usuario (entra como invitado)
   if (user && /^\/default\.asp$/i.test(u.pathname)) return;
   const key = u.pathname.toLowerCase();
@@ -79,7 +79,8 @@ while (queue.length && ok + errors.length < max) {
     errors.push({ url, from, msg: msg || `HTTP ${r.status}` });
   } else ok++;
   if (r.location) enqueue(r.location, url);
-  for (const m of r.text.matchAll(/\b(?:src|href|action)\s*=\s*["']?([^"'\s>]+)/gi)) enqueue(m[1], url);
+  // No se siguen los action de formularios: abrirlos por GET ejecuta altas con campos vacíos
+  for (const m of r.text.matchAll(/\b(?:src|href)\s*=\s*["']?([^"'\s>]+)/gi)) enqueue(m[1], url);
   for (const m of r.text.matchAll(/["']([\w/.]+\.asp(?:\?[^"']*)?)["']/gi)) enqueue(m[1], url);
 }
 console.log(`\n${ok} páginas OK, ${errors.length} con error (cola restante: ${queue.length})`);
