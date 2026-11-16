@@ -19,6 +19,7 @@ The original pages, frames, CSS, GIFs and texts are the product; people revisit 
 - `server/compat/` — client-side IE5/6 compatibility: `ie-compat.js` (injected shim) and `rewrite.js` (on-the-fly rewrites like `frames("x")`, `function document.onclick()`, CSS `10 px`).
 - `server/ports/` — JScript ports of the VBScript pages (downloads/uploads).
 - `scripts/` — `migrate-mdb.mjs` (+ `schema-extra.sql` for SQL Server-era tables), `seed-demo.mjs`, and test tools (`check-compile`, `crawl`, `tour`, `popups`, `shot`, `check-client-js`).
+- `docs/` — project documentation (Spanish); update it when behavior changes.
 - `legacy/` — original code no longer used (kept for history, not served).
 - `demo/Courses/` — demo course content; copied to `Courses/` (gitignored) on setup/reset.
 

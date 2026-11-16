@@ -52,11 +52,16 @@ Variables de entorno: `PORT`, `SEPAD_RESET_ON_START=1` (restaura los datos de de
 
 > Nota: el código de 1998 construye las consultas SQL concatenando texto, como era habitual entonces. Si se publica, conviene restaurar los datos con frecuencia (`SEPAD_RESET_HOURS`) y no guardar nada valioso.
 
+## Documentación
+
+La carpeta [`docs/`](docs/README.md) explica la operación, la aplicación original, la arquitectura, el runtime de ASP, la base de datos, la compatibilidad con el navegador y el desarrollo.
+
 ## Estructura
 
 - `default.asp`, `global.asa`, `pages_esp/`, `Js/`, `Css/`, `images/`, `Help/`: la aplicación original.
 - `database/Sepad.mdb`: la base de datos Access original.
 - `server/`: el runtime moderno (ASP, ADO, COM y compatibilidad con IE).
 - `scripts/`: migración, datos de demostración y herramientas de prueba.
+- `docs/`: documentación del proyecto.
 - `demo/`: contenido de los cursos de demostración.
 - `legacy/`: código original que ya no se usa (páginas beta, copias duplicadas, originales VBScript ya portados), conservado como historia.
