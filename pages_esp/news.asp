@@ -26,7 +26,7 @@
       first = Request.QueryString.Item("first") + "";
       
       if (first != "-1") {
-        where = " and where (Fecha_Publicada < " + Application("dchar") +  first + Application("dchar") + ")";
+        where = " and (Fecha_Publicada < " + Application("dchar") +  first + Application("dchar") + ")";
       } 
     } 
       

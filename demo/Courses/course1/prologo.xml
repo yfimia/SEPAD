@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Prologo>
+  <Titulo>Introducción a Internet</Titulo>
+  <Autor>Profesora de demostración</Autor>
+  <PalabrasClaves><PalabraClave>Internet</PalabraClave><PalabraClave>WWW</PalabraClave><PalabraClave>Correo electrónico</PalabraClave><PalabraClave>TCP/IP</PalabraClave></PalabrasClaves>
+  <Fundament>Este módulo ofrece los conocimientos básicos para utilizar los servicios de Internet en el estudio a distancia.</Fundament>
+  <Calendario><Actividad fecha="15/02/1999">Inicio del módulo</Actividad><Actividad fecha="01/03/1999">Entrega de la primera tarea</Actividad><Actividad fecha="20/03/1999">Cierre del módulo</Actividad></Calendario>
+  <Objetivos><Objetivo>Comprender qué es Internet y cómo funciona.</Objetivo><Objetivo>Utilizar el World Wide Web para buscar información.</Objetivo><Objetivo>Comunicarse por correo electrónico.</Objetivo></Objetivos>
+  <ConocimientosRequeridos><Conocimiento>Uso básico de la computadora</Conocimiento></ConocimientosRequeridos>
+  <SistemaTutorias>Los tutores responden en el foro del módulo y por la mensajería interna de SEPAD.</SistemaTutorias>
+</Prologo>

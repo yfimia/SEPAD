@@ -1,0 +1,6 @@
+/node_modules/
+# Base de datos generada por `npm run setup` (a partir de database/Sepad.mdb + demo)
+/data/
+# Copia de trabajo de demo/Courses (se regenera en cada reinicio de la demo)
+/Courses/
+.DS_Store

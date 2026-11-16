@@ -4,6 +4,7 @@
 %>
 
 <!-- #include file='../js/user.inc' -->
+<!-- #include file='inc/coursemanager.inc' -->
 
 <%
     if (Request.QueryString.Item("uid") + "" == Session("uid"))

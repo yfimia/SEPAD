@@ -1,4 +1,4 @@
-<%titulo="Listado de mensajes"
+<%titulo="Listado de mensajes"%>
 <%infor1="Todos los temas"%>
 <%infor2="Lista de mensages"%>
 <%autor="Autor"%>

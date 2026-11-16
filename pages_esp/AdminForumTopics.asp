@@ -130,7 +130,7 @@
         var clase = "MessageTR1";
         var i = 0;
         var last = "-1"
-        var Fimage = "../images/<%=Session("skin")%>/icon_folder.gif";
+        var Fimage = "../images/" + Session("skin") + "/icon_folder.gif";
         var msgNext = true;
         
         while (oRec.EOF == false)
@@ -139,10 +139,10 @@
             if (clase == "MessageTR1") {clase = "MessageTR";} else {clase = "MessageTR1";}
                       
             if (oRec.Fields.Item("Activo").value == true){
-              Fimage = "../images/<%=Session("skin")%>/icon_folder.gif";
+              Fimage = "../images/" + Session("skin") + "/icon_folder.gif";
             }
             else {
-              Fimage = "../images/<%=Session("skin")%>/icon_folder_locked.gif";
+              Fimage = "../images/" + Session("skin") + "/icon_folder_locked.gif";
             }
             
             var topicURL = "ShowForumMessages.asp?uid=" + uid + "&Course=" + CourseInUse + "&Topic=" + oRec.Fields.Item("FID").value + "&lastmsg=0&courseName=" + courseNameInUse;

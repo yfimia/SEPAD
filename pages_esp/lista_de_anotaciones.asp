@@ -24,7 +24,7 @@ oRec.Open("select * from Anotaciones where (alumn = " + Session("uid") + ")",oCo
 
 while (!oRec.eof)
 {
-Response.write(oRec.Fields.Item.("texto").value); 
+Response.write(oRec.Fields.Item("texto").value); 
 
 oRec.Move(1);
 }

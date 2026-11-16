@@ -164,7 +164,7 @@
 <%    
         var clase = "MessageTR1";
         var i = 0;
-        var Fimage = "../images/<%=Session("skin")%>/icon_folder.gif";
+        var Fimage = "../images/" + Session("skin") + "/icon_folder.gif";
         var msgNext = true;
         
         while (oRec.EOF == false)
@@ -173,10 +173,10 @@
             if (clase == "MessageTR1") clase = "MessageTR"; else clase = "MessageTR1";
                       
             if ((oRec.Fields.Item("AceptaRespuestas").value == true) && (oRec.Fields.Item("Activo").value == true)) {
-              Fimage = "../images/<%=Session("skin")%>/icon_folder.gif";
+              Fimage = "../images/" + Session("skin") + "/icon_folder.gif";
             }
             else {
-              Fimage = "../images/<%=Session("skin")%>/icon_folder_locked.gif";
+              Fimage = "../images/" + Session("skin") + "/icon_folder_locked.gif";
             }
             
             
@@ -198,7 +198,7 @@
                   <IMG src="../images/<%=Session("skin")%>/icon_posticon.gif">
                 </td> 
                 <td width="100%" align=left valign=bottom nowrap>
-                  <font size=2><%=enviado><%=oRec.Fields.Item("Fecha").value%></font>
+                  <font size=2><%=enviado%><%=oRec.Fields.Item("Fecha").value%></font>
                 </td>  
                 <td width="1%" align=left valign=middle nowrap>
                   &nbsp;
@@ -208,7 +208,7 @@
                     </a>
                   <%} else {%>
                     <a href="AdminForumMessages.asp?uid=<%=uid%>&Course=<%=CourseInUse%>&topic=<%=TopicID%>&lastmsg=<%=Mlastmsg%>&op=on&idmsg=<%=oRec.Fields.Item("ID").value%>&courseName=<%=courseNameInUse%>">
-                      <font size=1><%%=siacept></font>
+                      <font size=1><%=siacept%></font>
                     </a>
                   <%}%>
                 </td>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Prologo>
+  <Titulo>Diseño de páginas Web con HTML</Titulo>
+  <Autor>Profesora de demostración</Autor>
+  <PalabrasClaves><PalabraClave>HTML</PalabraClave><PalabraClave>Tablas</PalabraClave><PalabraClave>Marcos</PalabraClave></PalabrasClaves>
+  <Fundament>Aprenderá a crear páginas Web sencillas con un editor de texto.</Fundament>
+  <Calendario><Actividad fecha="22/03/1999">Inicio del módulo</Actividad><Actividad fecha="15/04/1999">Publicación de la página personal</Actividad></Calendario>
+  <Objetivos><Objetivo>Escribir páginas con las etiquetas básicas de HTML.</Objetivo><Objetivo>Maquetar contenido con tablas y marcos.</Objetivo></Objetivos>
+  <ConocimientosRequeridos><Conocimiento>Uso básico de la computadora</Conocimiento></ConocimientosRequeridos>
+  <SistemaTutorias>Los tutores responden en el foro del módulo y por la mensajería interna de SEPAD.</SistemaTutorias>
+</Prologo>
