@@ -11,6 +11,12 @@ Este repositorio conserva el código original y le agrega un **runtime moderno**
 Requisitos: Node.js 20 o posterior y `xsltproc` (viene con macOS; en Debian/Ubuntu: `apt install xsltproc`).
 
 ```sh
+make start        # instala, crea la base de datos y levanta http://localhost:8080/
+```
+
+O sin `make`:
+
+```sh
 npm install
 npm run setup     # convierte database/Sepad.mdb a SQLite y carga datos de demostración
 npm start         # http://localhost:8080/
@@ -53,3 +59,4 @@ Variables de entorno: `PORT`, `SEPAD_RESET_ON_START=1` (restaura los datos de de
 - `server/`: el runtime moderno (ASP, ADO, COM y compatibilidad con IE).
 - `scripts/`: migración, datos de demostración y herramientas de prueba.
 - `demo/`: contenido de los cursos de demostración.
+- `legacy/`: código original que ya no se usa (páginas beta, copias duplicadas, originales VBScript ya portados), conservado como historia.

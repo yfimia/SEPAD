@@ -4,7 +4,8 @@ import path from "node:path";
 import { compileAsp } from "../server/asp/compiler.js";
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
-const SKIP = /^(Beta|SEPAD_06_01_09_Agenda|node_modules|\.git|data)(\/|$)|pages_esp\/Administracion\/pages_esp/;
+// legacy/: código original que ya no se usa; server/ports sí se compila (reemplaza a las páginas VBScript)
+const SKIP = /^(legacy|node_modules|\.git|data|Courses|demo)(\/|$)|^server\/(asp|compat)(\/|$)/;
 const files = [];
 (function walk(d) {
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
@@ -14,22 +15,19 @@ const files = [];
     else if (/\.asp$/i.test(e.name)) files.push(path.join(d, e.name));
   }
 })(root);
-let ok = 0, vb = 0, ported = 0;
-const pending = [];
+let ok = 0;
+const vbscript = [];
 const fails = [];
 for (const f of files) {
   try {
     const r = compileAsp(f, root);
-    if (r.vbscript) {
-      if (fs.existsSync(path.join(root, "server/ports", path.relative(root, f)))) ported++;
-      else if (/upload\.asp$/i.test(f)) vb++; // include VBScript de las páginas de subida (reemplazado por el port)
-      else pending.push(path.relative(root, f));
-    } else ok++;
+    if (r.vbscript) vbscript.push(path.relative(root, f));
+    else ok++;
   } catch (e) {
     const loc = e.aspLocation ? `${path.relative(root, e.aspLocation.file)}:${e.aspLocation.line}` : "?";
     fails.push(`${path.relative(root, f)}  ->  ${loc}  ${e.message.split("\n")[0]}`);
   }
 }
-console.log(`${files.length} páginas: ${ok} OK, ${ported} VBScript portadas a JScript (server/ports), ${vb} includes VBScript sin uso, ${pending.length} VBScript pendientes, ${fails.length} con errores`);
-for (const l of pending) console.log("  pendiente: " + l);
+console.log(`${files.length} páginas (incluye server/ports): ${ok} OK, ${vbscript.length} en VBScript sin portar, ${fails.length} con errores`);
+for (const l of vbscript) console.log("  VBScript sin portar: " + l);
 for (const l of fails) console.log("  " + l);

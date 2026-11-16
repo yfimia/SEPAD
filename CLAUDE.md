@@ -7,7 +7,8 @@ Legacy LMS (distance-learning system) built by the repo owner in 1998 for the Cu
 The original pages, frames, CSS, GIFs and texts are the product; people revisit it for nostalgia. Modernization happens **underneath**, in a Node.js runtime that executes the original `.asp` files almost unchanged.
 
 - Don't redesign or rewrite the UI. Fix original pages only for genuine bugs (they were broken in IIS too) and keep the diff minimal.
-- Pages written in VBScript are ported to JScript in `server/ports/<same path>`; the runtime prefers the port and the original stays as a historical artifact.
+- Pages written in VBScript are ported to JScript in `server/ports/<same path>`; the originals live in `legacy/`, and the server answers their URLs with the port.
+- `legacy/` holds unused original code (Beta pages, the applied Agenda patch, a duplicated `pages_esp` copy, VSS metadata). It isn't served or compiled; see `legacy/README.md`.
 - Files are ISO-8859-1. Edit them byte-safely (e.g. `LC_ALL=C sed`), never re-save as UTF-8.
 
 ## Layout
@@ -18,10 +19,12 @@ The original pages, frames, CSS, GIFs and texts are the product; people revisit 
 - `server/compat/` — client-side IE5/6 compatibility: `ie-compat.js` (injected shim) and `rewrite.js` (on-the-fly rewrites like `frames("x")`, `function document.onclick()`, CSS `10 px`).
 - `server/ports/` — JScript ports of the VBScript pages (downloads/uploads).
 - `scripts/` — `migrate-mdb.mjs` (+ `schema-extra.sql` for SQL Server-era tables), `seed-demo.mjs`, and test tools (`check-compile`, `crawl`, `tour`, `popups`, `shot`, `check-client-js`).
+- `legacy/` — original code no longer used (kept for history, not served).
 - `demo/Courses/` — demo course content; copied to `Courses/` (gitignored) on setup/reset.
 
 ## Commands
 
+- `make start` (or `make help`) — wraps the commands below.
 - `npm install && npm run setup` — build `data/sepad.sqlite` from `database/Sepad.mdb` plus demo data (`data/sepad.seed.sqlite` is the pristine copy).
 - `npm start` — serve on `PORT` (default 8080). Env: `SEPAD_RESET_ON_START=1`, `SEPAD_RESET_HOURS=n`, `SEPAD_DEBUG=1` (stack traces), `SEPAD_LOG=0`.
 - `npm run check` — compile every `.asp`; must report 0 errors.

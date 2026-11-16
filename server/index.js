@@ -39,7 +39,7 @@ const MIME = {
 
 // Lo que IIS nunca debió servir (o el código del runtime moderno).
 const BLOCKED = [
-  /^\/(server|scripts|node_modules|data|database|\.git)(\/|$)/i,
+  /^\/(server|scripts|node_modules|data|database|legacy|demo|\.git)(\/|$)/i,
   /\.(inc|asa|mdb|ldb|sqlite|scc|rar|bat|db|md|json|mjs)$/i,
   /^\/xml\/config\.xml$/i,
   /\/thumbs\.db$/i,
@@ -121,8 +121,10 @@ const server = http.createServer((req, res) => {
   if (urlPath.includes("\0") || BLOCKED.some((re) => re.test(urlPath))) return notFound(res);
 
   let file = resolveCI(path.join(ROOT, urlPath));
+  // Páginas VBScript cuyo original se movió a legacy/: se atienden con su port en JScript
+  if (!file && /\.asp$/i.test(urlPath) && resolveCI(path.join(ROOT, "server/ports", urlPath))) file = path.join(ROOT, urlPath);
   if (!file || !(file === ROOT || file.startsWith(ROOT + path.sep))) return notFound(res);
-  if (fs.statSync(file).isDirectory()) {
+  if (fs.existsSync(file) && fs.statSync(file).isDirectory()) {
     if (!urlPath.endsWith("/")) {
       return send(res, 301, { Location: urlPath + "/" + (rawQuery ? "?" + rawQuery : "") }, "");
     }
