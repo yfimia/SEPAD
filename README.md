@@ -2,9 +2,50 @@
 
 **Sistema de Enseñanza Personalizada a Distancia** — LMS created for the Cuban context.
 
-SEPAD nació en 1998, en la Universidad Central "Marta Abreu" de Las Villas, como una plataforma de teleformación pensada para llegar a todos, sin importar la capacidad tecnológica o de conexión. Ofrecía aula virtual, foros, chat, mensajería interna, agenda, noticias, glosario, autoevaluaciones y un acceso alternativo por correo electrónico. Se escribió en **Active Server Pages (ASP) con JScript**, años antes de que existiera .NET.
+SEPAD es una plataforma de teleformación creada en 1998 en Cuba. Ofrecía aula virtual, foros, chat, mensajería interna, agenda, noticias, glosario, autoevaluaciones y un acceso alternativo por correo electrónico. Se escribió en **Active Server Pages (ASP) con JScript**, años antes de que existiera .NET.
 
 Este repositorio conserva el código original y le agrega un **runtime moderno** que lo ejecuta en cualquier sistema (macOS, Linux, Windows) con Node.js y SQLite, **manteniendo intacta la interfaz de la época**: frames, GIFs, temas `aqua`/`gold`/`fresh`, la marquesina de noticias y hasta los mensajes de error de IIS.
+
+## Historia
+
+SEPAD comenzó en 1998 en la **Universidad Central "Marta Abreu" de Las Villas** (UCLV), en Santa Clara, Cuba. En una época en que la mayoría de los estudiantes tenía conexiones lentas, intermitentes o ninguna, su objetivo era *llevar la educación a todos independientemente de su capacidad tecnológica o de conectividad*. Por eso no era solo un sitio web: ofrecía tres vías de acceso.
+
+- **Aula web**, para quien tenía conexión en línea.
+- **Cliente por correo electrónico** (`SepadXM`): se estudiaba enviando y recibiendo correos, pensado para quien solo tenía correo.
+- **Versión multimedia** que funcionaba sin ninguna conexión.
+
+A ellas se sumaba una herramienta de escritorio para crear y publicar los módulos sin conexión (`SepadHP`).
+
+Lo desarrolló el **Grupo RedWAY**, con la Facultad de Ciencias Empresariales, la Facultad de Matemática, Física y Computación y la Facultad de Enseñanza a Distancia de la UCLV. Funcionaba en `sepad.cvep.uclv.edu.cu`.
+
+### Desarrolladores
+
+Según la página *Acerca de...* de la versión 1.5:
+
+- Alcides Morales Guedes
+- Alfredo Artiles Larralde
+- Didiosky Benites Erice
+- Yoilán Fimia León
+- Wilder González Días
+- Ricardo A. Sotolongo Trugillo
+- Enrique Portela García
+- Ladys Rodríguez Contreras
+
+### Evolución
+
+| Época | Hito |
+| --- | --- |
+| 1998 | Comienza el desarrollo en ASP con JScript sobre IIS y una base de datos Access |
+| Versión 1.2 | Organización en *Módulos* que agrupaban *Cursos*, cada curso con su prólogo y sus profesores |
+| Versión 1.5 (1999–2003) | Nueva estructura: *Modalidad académica* (diplomado, maestría, doctorado…) → *Módulos* → *Lecciones* → materiales y autoevaluaciones. Aparecen los roles de coordinador, profesor principal y tutor de subgrupo |
+| Mayo de 2002 | Nueva versión del cliente de acceso por correo electrónico |
+| Octubre de 2002 | Se abre la lista de discusión de usuarios del SEPAD |
+| Noviembre de 2004 | Última versión de la herramienta de edición y publicación de módulos |
+| Etapa posterior | La base de datos pasa de Access a SQL Server y se incorpora la Agenda |
+| 2013–2017 | El código se publica en GitHub |
+| 2026 | Este runtime moderno lo vuelve a poner en marcha, con su interfaz original |
+
+La sección [La aplicación original](docs/aplicacion-original.md) describe en detalle cómo funcionaba.
 
 ## Probarlo
 

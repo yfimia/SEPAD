@@ -5,7 +5,7 @@ pieza histórica, con las mismas rutas relativas que tenía en la raíz del proy
 El servidor no lo publica por HTTP.
 
 - `Beta/`: páginas de prueba (`public.asp`, `uploadCourFile.asp`); ninguna página las enlazaba.
-- `SEPAD_06_01_09_Agenda/`: parche de la Agenda (enero de 2006) con el script de SQL Server
+- `SEPAD_06_01_09_Agenda/`: parche de la Agenda con el script de SQL Server
   `Crea_Tabla_AgendaEventos.sql`; ya estaba aplicado en `pages_esp/`.
 - `pages_esp/Administracion/pages_esp/`: copia duplicada de `pages_esp/` sin referencias.
 - `pages_esp/Downloads.asp`, `pages_esp/Upload/` y `pages_esp/Administracion/Upload/`: páginas
