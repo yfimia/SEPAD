@@ -20,16 +20,25 @@ Lo desarrolló el **Grupo RedWAY**, con la Facultad de Ciencias Empresariales, l
 
 ### Desarrolladores
 
-Según la página *Acerca de...* de la versión 1.5:
+SEPAD fue posible gracias a un grupo de personas que creyó que la educación a distancia podía llegar a todos.
 
-- Alcides Morales Guedes
-- Alfredo Artiles Larralde
+**Equipo fundador**, que propuso la idea y desarrolló la primera versión de la plataforma:
+
+- Alfredo Artiles Larralde ([@aartiles](https://github.com/aartiles))
+- Yoilán Fimia León ([@yfimia](https://github.com/yfimia))
 - Didiosky Benites Erice
-- Yoilán Fimia León
-- Wilder González Días
-- Ricardo A. Sotolongo Trugillo
+- Wilder González Días ([@wildergd](https://github.com/wildergd))
+- Ricardo A. Sotolongo Trujillo ([@rsotolongo](https://github.com/rsotolongo))
 - Enrique Portela García
-- Ladys Rodríguez Contreras
+
+**Dirección del proyecto:** Alcides Morales ([@alcidesmorales](https://github.com/alcidesmorales)), en la etapa inicial, y más tarde Roberto Vicente.
+
+**Colaboradores** que se sumaron en las versiones posteriores:
+
+- Ladys Rodríguez
+- Roberto Carlos Rodriguez Hidalgo ([@robec1982](https://github.com/robec1982))
+- Victor Daniel Arteaga ([@vdag83](https://github.com/vdag83))
+- Yenier Cruz ([@ycruzb](https://github.com/ycruzb))
 
 ### Evolución
 
@@ -119,3 +128,9 @@ Las páginas `.asp` originales no se reescribieron. Un servidor en Node.js las c
 | `demo/` | Contenido de los cursos de demostración |
 | `docs/` | Documentación del proyecto |
 | `legacy/` | Código original que ya no se usa, conservado como historia ([detalle](legacy/README.md)) |
+
+## Licencia
+
+SEPAD se distribuye bajo la licencia [PolyForm Noncommercial 1.0.0](LICENSE.md): se puede usar, estudiar, modificar y compartir **sin fines comerciales**, conservando los avisos de copyright. Cualquier uso comercial requiere autorización de los titulares.
+
+El código original pertenece al Grupo RedWAY, a la Universidad Central "Marta Abreu" de Las Villas y a los autores de SEPAD; la modernización, a Yoilán Fimia León. Los componentes de terceros (TinyMCE, htmlArea, la implementación de MD5 y las DLL de `Services/`) conservan sus propias licencias. El detalle está en [NOTICE.md](NOTICE.md).
